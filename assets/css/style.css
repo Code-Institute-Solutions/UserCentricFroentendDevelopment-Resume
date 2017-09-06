@@ -14,6 +14,13 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
 
 .ui-menu-color-home {
     background-color: #e67e22;
@@ -68,7 +75,7 @@ h4 {
     display: table;
 }
 
-.resume-heading,
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -263,13 +270,29 @@ footer .cv-pdf i:hover {
     width: 60%;
 }
 
+/*--------------------------------------------Skills*/
 
-/* hiswewerw*/
-
-.resume-heading {
-    margin-bottom: 50px;
-    color: #ffffff;
+.progress {
+    position: relative;
+    height: 25px;
 }
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+
+/*--------------------------------------------Work History*/
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -287,10 +310,9 @@ footer .cv-pdf i:hover {
     content: attr(dates);
     position: absolute;
     left: 2.5em;
-    /* font-weight: bold;*/
     top: 3em;
     display: block;
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: .8em;
     padding: 0;
@@ -309,46 +331,14 @@ footer .cv-pdf i:hover {
     background: #fafafa;
 }
 
-.timeline-item h4:hover {
-    color: #aaaaaa;
-    transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -webkit-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out
-}
-
-/*work*/
-
-.bg-color-work-history {
-    background-color: #9b59b6;
-}
-
-.bg-color-skills {
-    background-color: #ffffff;
-}
-
-/*--------------------------------------------Skills*/
-
-.progress{
-    position: relative;
-    height:25px;
-}
-
-.progress-type{
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
+.history-heading {
     color: #fafafa;
-    background-color: rgba(25,25,25,0.2);
+    margin-bottom: 50px;
 }
 
-
-.progress-section{
-    margin:40px 20px;
+.history-items {
+    margin-bottom: 30px;
 }
-
 
 
 /*--------------------------------------------Media Queries*/
